@@ -1,0 +1,9 @@
+[Unit]
+Description=Inhibitor test
+After=sysinit.target
+
+[Service]
+ExecStart=/mnt/local11/dbus/mydbus
+
+[Install]
+WantedBy=default.target
